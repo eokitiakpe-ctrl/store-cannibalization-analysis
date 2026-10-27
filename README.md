@@ -1,8 +1,8 @@
-\# Store Expansion \& Sales Cannibalization Analysis
+# Store Expansion \& Sales Cannibalization Analysis
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -18,11 +18,11 @@ The project was completed in \*\*Stata\*\* and includes data preparation, explor
 
 
 
-\## Research Question
+## Research Question
 
 
 
-\*\*Did the opening of Store #6 cannibalize sales at existing stores within the same trading area?\*\*
+*\*Did the opening of Store #6 cannibalize sales at existing stores within the same trading area?\*\*
 
 
 
@@ -30,15 +30,15 @@ More specifically, the analysis considers whether:
 
 
 
-\- Existing stores experienced changes in their sales trends following the opening.
+- Existing stores experienced changes in their sales trends following the opening.
 
-\- Effects differed across incumbent stores.
+- Effects differed across incumbent stores.
 
-\- The opening changed the overall sales trajectory of the trading area.
+- The opening changed the overall sales trajectory of the trading area.
 
 
 
-\## Methods
+## Methods
 
 
 
@@ -50,17 +50,17 @@ The empirical approach includes:
 
 
 
-\- Aggregation of transaction-level data to daily store sales.
+- Aggregation of transaction-level data to daily store sales.
 
-\- Time-series visualization of sales before and after the store opening.
+- Time-series visualization of sales before and after the store opening.
 
-\- Moving-average and LOWESS smoothing to examine underlying sales patterns.
+- Moving-average and LOWESS smoothing to examine underlying sales patterns.
 
-\- Store-level structural-change regressions estimating changes in sales trends after the opening.
+- Store-level structural-change regressions estimating changes in sales trends after the opening.
 
-\- Log-sales specifications to evaluate changes in sales growth.
+- Log-sales specifications to evaluate changes in sales growth.
 
-\- Aggregate trading-area analysis to determine whether store-level changes corresponded with changes in total sales.
+- Aggregate trading-area analysis to determine whether store-level changes corresponded with changes in total sales.
 
 
 
@@ -76,7 +76,7 @@ where the interaction between the post-opening indicator and time captures the e
 
 
 
-\## Key Findings
+## Key Findings
 
 
 
@@ -84,13 +84,13 @@ The results provide evidence consistent with \*\*localized sales cannibalization
 
 
 
-\- \*\*Store #3\*\* experienced a statistically significant negative change in its sales trend following the opening of Store #6.
+- \*\*Store #3\*\* experienced a statistically significant negative change in its sales trend following the opening of Store #6.
 
-\- \*\*Store #5\*\* also showed evidence of a negative change in its sales trend, although the statistical evidence was weaker.
+- \*\*Store #5\*\* also showed evidence of a negative change in its sales trend, although the statistical evidence was weaker.
 
-\- \*\*Store #4\*\*, in contrast, experienced a statistically significant positive change in its sales trend.
+- \*\*Store #4\*\*, in contrast, experienced a statistically significant positive change in its sales trend.
 
-\- The remaining incumbent stores did not show strong evidence of a significant deterioration in their sales trends.
+- The remaining incumbent stores did not show strong evidence of a significant deterioration in their sales trends.
 
 
 
@@ -106,7 +106,7 @@ Taken together, the results suggest that Store #6 may have \*\*redistributed sal
 
 
 
-\## Sales Trends by Store
+## Sales Trends by Store
 
 
 
@@ -126,7 +126,7 @@ Because daily sales are volatile, smoothed sales trends provide a clearer view o
 
 
 
-\## Trading-Area Sales
+## Trading-Area Sales
 
 
 
@@ -138,7 +138,7 @@ Aggregating sales across locations provides a different perspective on the expan
 
 
 
-\## Interpretation
+## Interpretation
 
 
 
@@ -154,7 +154,7 @@ The results in this analysis are consistent with this distinction: some incumben
 
 
 
-\## Limitations
+## Limitations
 
 
 
@@ -170,7 +170,7 @@ A stronger causal design would incorporate an appropriate comparison group of st
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -204,7 +204,7 @@ store-cannibalization-analysis/
 
 
 
-\## Data Availability
+## Data Availability
 
 
 
@@ -216,11 +216,11 @@ The repository contains the Stata analysis code, model outputs, and figures gene
 
 
 
-\## Tools
+## Tools
 
 
 
-\- \*\*Stata\*\* — data preparation, statistical modeling, and visualization
+- \*\*Stata\*\* — data preparation, statistical modeling, and visualization
 
-\- \*\*Git/GitHub\*\* — version control and project documentation
+- \*\*Git/GitHub\*\* — version control and project documentation
 
