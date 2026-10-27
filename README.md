@@ -9,6 +9,11 @@ Using daily store-level sales data, I examine sales patterns before and after th
 
 The project was completed in **Stata** and includes data preparation, exploratory time-series analysis, smoothing techniques, structural-change regressions, and log-sales specifications.
 
+## Project Files
+
+- [View the Stata analysis](code/01_analysis.do)
+- [View regression outputs](output/)
+- [View all figures](figures/)
 ## Research Question
 
 **Did the opening of Store #6 cannibalize sales at existing stores within the same trading area?**
