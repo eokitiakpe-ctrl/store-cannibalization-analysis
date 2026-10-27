@@ -1,0 +1,16 @@
+	(1)
+VARIABLES	Total Sales Log Model
+	
+time	0.000286**
+	(0.000132)
+post	0.00845
+	(0.214)
+post_time	-2.10e-05
+	(0.000258)
+Constant	9.877***
+	(0.0518)
+	
+Observations	1,155
+R-squared	0.018
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

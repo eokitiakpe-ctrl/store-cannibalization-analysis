@@ -1,0 +1,16 @@
+	(1)
+VARIABLES	Total Sales Trend
+	
+time	7.812**
+	(3.914)
+post	-1,453
+	(6,364)
+post_time	1.630
+	(7.684)
+Constant	23,896***
+	(1,541)
+	
+Observations	1,156
+R-squared	0.018
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
